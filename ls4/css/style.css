@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    font-family: 'Playfair Display', sans-serif;
+    }
+nav{
+    font-size: 16px;
+    text-align: center;
+}
+a:hover{
+    background: yellow;
+    color: purple;
+}
+.text{
+    box-sizing: content-box;
+    width: 430px;
+    border:20px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+}
+p{
+    margin-top: 15px;
+}
+h2{
+    margin-top: 10px;
+}
