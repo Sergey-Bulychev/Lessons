@@ -1,27 +1,53 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
-*{
-    margin: 0;
+body{
     font-family: 'Playfair Display', sans-serif;
-    }
+}
 nav{
     font-size: 16px;
     text-align: center;
 }
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 25px;
+}
+    
 a:hover{
     background: yellow;
-    color: purple;
+    color: green;
 }
 .text{
-    box-sizing: content-box;
-    width: 430px;
-    border:20px;
+    box-sizing: border-box;
+    /* display: inline-block; */
+    width: 470px;
+    border: 20px;
     padding: 20px;
     margin: auto;
     margin-top: 40px;
 }
 p{
-    margin-top: 15px;
+    margin-top: 20px;
+    font-size: 17px;
 }
 h2{
+    margin-bottom: 10px;
     margin-top: 10px;
 }
+
+section{
+    box-sizing: border-box;
+    width: 960px;
+    border: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    /* font-family: 'Playfair Display', sans-serif; */
+    
+}
+section > article{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 450px;
+    border: 20px;
+    padding: 20px 10px 10px 10px;
+}
+
